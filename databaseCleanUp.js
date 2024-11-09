@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 
@@ -18,8 +19,6 @@ const seedDatabase = async () => {
   try {
     // Connect to MongoDB
     await mongoose.connect(dbUri, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
     });
     console.log('Connected to MongoDB');
 
@@ -28,9 +27,18 @@ const seedDatabase = async () => {
     console.log('Existing data cleared');
 
     // Read and parse the JSON file
-    const dataPath = path.join(__dirname, 'test.peope.json');
+    const dataPath = path.join(__dirname, 'test.people.json');
     const jsonData = fs.readFileSync(dataPath, 'utf-8');
-    const seedData = JSON.parse(jsonData);
+    
+    let seedData = JSON.parse(jsonData);
+
+    // Convert $oid to ObjectId
+    seedData = seedData.map(person => {
+      if (person._id && person._id.$oid) {
+        person._id = new mongoose.Types.ObjectId(person._id.$oid);
+      }
+      return person;
+    });
 
     // Insert new data
     await Person.insertMany(seedData);
