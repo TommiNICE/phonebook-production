@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "671fae9ffd11473cee9057e9"
+  },
+  "name": "Franz",
+  "number": "12309837",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b957576"
+  },
+  "name": "Augusta",
+  "number": "736282513"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b957586"
+  },
+  "name": "Frieda",
+  "number": "349483082"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b95757d"
+  },
+  "name": "Hermann",
+  "number": "472731352"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b95758f"
+  },
+  "name": "Karl",
+  "number": "444367163"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b957584"
+  },
+  "name": "Ludwig",
+  "number": "346439546"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b957577"
+  },
+  "name": "Henriette",
+  "number": "239827445"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b957580"
+  },
+  "name": "Irma",
+  "number": "857729682"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b957578"
+  },
+  "name": "Emil",
+  "number": "660261155"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b957575"
+  },
+  "name": "Margarethe",
+  "number": "606606940"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b957579"
+  },
+  "name": "Hildegard",
+  "number": "982157236"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b957590"
+  },
+  "name": "Johann",
+  "number": "239174505"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b957587"
+  },
+  "name": "Dorothea",
+  "number": "613345408"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b95758c"
+  },
+  "name": "Margarethe",
+  "number": "157894709"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b95758b"
+  },
+  "name": "Irma",
+  "number": "234762026"
+},
+{
+  "_id": {
+    "$oid": "671fcb4f3e277c923b957592"
+  },
+  "name": "Friedrich",
+  "number": "4531240"
+}]
