@@ -64,13 +64,6 @@
 },
 {
   "_id": {
-    "$oid": "671fcb4f3e277c923b957575"
-  },
-  "name": "Margarethe",
-  "number": "606606940"
-},
-{
-  "_id": {
     "$oid": "671fcb4f3e277c923b957579"
   },
   "name": "Hildegard",
