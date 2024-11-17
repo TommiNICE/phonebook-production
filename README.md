@@ -27,6 +27,8 @@ The frontend of the application is built with **React** and styled using **Tailw
 
 Tailwind CSS enabled rapid development of the UI by providing utility-first styling and consistent design practices.
 
+Here is the link to the repository that contains the code for the frontend: https://github.com/TommiNICE/phonebook
+
 
 ## Deployment
 
